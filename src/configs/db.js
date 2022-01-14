@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
 
 module.exports = () => {
-    return mongoose.connect("mongodb://localhost:27017/auth-web11")
+    return mongoose.connect("mongodb://localhost:27017/musicapp")
 }
